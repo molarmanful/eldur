@@ -1,2 +1,3 @@
 # eldur
-A stylish microfont.
+
+A stylish bitmap microfont for all your spellcasting needs.
