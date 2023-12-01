@@ -11,12 +11,14 @@
 <name id="0" value="Copyright (c) 2023, Benjamin Pang (@molarmanful)"/>
 <name id="1" value="eldur"/>
 <name id="2" value="Medium"/>
-<name id="3" value="BitsNPicas: eldur: 2023"/>
+<name id="3" value="molarmanful: eldur: 2023"/>
 <name id="4" value="eldur Medium"/>
 <name id="5" value="Version 1.0"/>
 <name id="6" value="eldur"/>
-<name id="8" value="Made with Bits&#39;n&#39;Picas by Kreative Software"/>
-<name id="11" value="http://www.kreativekorp.com/software/bitsnpicas/"/>
+<name id="8" value="Benjamin Pang"/>
+<name id="11" value="https://github.com/molarmanful/eldur"/>
+<name id="13" value="SIL Open Font License 1.1"/>
+<name id="14" value="https://github.com/molarmanful/eldur/blob/main/LICENSE"/>
 <g u="32" x="0" y="0" w="5" d="AAA"/>
 <g u="33" x="2" y="8" w="5" d="CAFGwgD/"/>
 <g u="34" x="1" y="8" w="5" d="AwPC/wBCAULCAP8"/>
@@ -964,7 +966,7 @@
 <g u="9478" x="2" y="9" w="5" d="CwFDAUMBQw"/>
 <g u="9479" x="1" y="9" w="5" d="CwNJA0kDSQ"/>
 <g u="9480" x="0" y="5" w="5" d="AwUCQQJBA0ECQQI"/>
-<g u="9481" x="0" y="5" w="5" d="AwXE/wD/AEIDQsQA/wD/"/>
+<g u="9481" x="0" y="6" w="5" d="BQUCQQLE/wD/AEIDQsQA/wD/AkEC"/>
 <g u="9482" x="2" y="9" w="5" d="CwFCAUIBQgFC"/>
 <g u="9483" x="1" y="9" w="5" d="CwNGA0YDRgNG"/>
 <g u="9484" x="2" y="4" w="5" d="BwNEAkECQQJBAkECQQI"/>
