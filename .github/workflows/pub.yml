@@ -19,7 +19,7 @@ jobs:
           distribution: temurin
           java-version: 21
       - name: build
-        run: ./build.sh
+        run: ./build.sh && cp LICENSE deps
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
@@ -27,4 +27,4 @@ jobs:
           BRANCH: build
           FOLDER: out
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MESSAGE: "Build: ({sha}) {msg}"
+          MESSAGE: 'build: ({sha}) {msg}'
