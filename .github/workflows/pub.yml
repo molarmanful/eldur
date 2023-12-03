@@ -19,7 +19,7 @@ jobs:
           distribution: temurin
           java-version: 21
       - name: build
-        run: ./build.sh && cp LICENSE deps
+        run: ./build.sh && cp LICENSE out
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
