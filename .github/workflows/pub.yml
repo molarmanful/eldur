@@ -2,7 +2,7 @@
 name: cmdoc
 on:
   push:
-    branches: [main]
+    tags: ['*']
 concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
@@ -20,11 +20,8 @@ jobs:
           java-version: 21
       - name: build
         run: ./build.sh && cp LICENSE out
-      - name: Push
-        uses: s0/git-publish-subdir-action@develop
-        env:
-          REPO: self
-          BRANCH: build
-          FOLDER: out
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MESSAGE: 'build: ({sha}) {msg}'
+      - name: Release
+        uses: svenstaro/upload-release-action@2.7.0
+        with:
+          file: out/*
+          file_glob: true
