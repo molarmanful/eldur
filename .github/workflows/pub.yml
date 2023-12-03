@@ -1,5 +1,5 @@
 ---
-name: cmdoc
+name: pub
 on:
   push:
     tags: ['*']
