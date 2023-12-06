@@ -19,7 +19,7 @@ jobs:
           distribution: temurin
           java-version: 21
       - name: build
-        run: ./build.sh && cp LICENSE out
+        run: apt install bdfresize && ./build.sh && cp LICENSE out
       - name: Release
         uses: svenstaro/upload-release-action@2.7.0
         with:
