@@ -2,11 +2,11 @@
 
 # ![eldur](./img/eldur.png)
 
-> A stylish bitmap microfont for all your spellcasting needs.
-
 </div>
 
 ## Overview
+
+> _A stylish bitmap microfont for all your spellcasting needs._
 
 **eldur** is a monospace bitmap font with a 5x13 bounding box (4px avg width,
 5px x-height).
@@ -23,9 +23,9 @@ at font sizes that are multiples of 13px.
 
 > **Quick Tip**: If you need font size in pt, use the following conversion:
 >
-> `pt = px - 72 / dpi`
+> `pt = px * 72 / dpi`
 >
-> For example: 13px on a 96dpi screen is `13px * 72 / 96dpi = 9.75pt`.
+> e.g. 13px on a 96dpi screen is `13px * 72 / 96dpi = 9.75pt`.
 
 ## Contributing
 
