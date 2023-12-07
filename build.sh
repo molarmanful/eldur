@@ -5,18 +5,20 @@ mkdir -p deps out
 
 [ ! -f deps/BitsNPicas.jar ] && wget -O deps/BitsNPicas.jar "https://github.com/kreativekorp/bitsnpicas/releases/latest/download/BitsNPicas.jar"
 
-exts=(ttf otb dfont)
-
 java -jar deps/BitsNPicas.jar convertbitmap -f bdf -o ./out/eldur.bdf ./src/eldur.kbitx
 bdfresize -f 2 ./out/eldur.bdf >./out/eldur_2x.bdf
 
+java -jar deps/BitsNPicas.jar convertbitmap -f ttf -o ./out/eldur.ttf ./src/eldur.kbitx
+
+exts=(otb dfont)
+
 for ext in "${exts[@]}"; do
-    out="out/eldur.$ext"
-    out2x="out/eldur_2x.$ext"
-    fontforge -lang=ff -c 'Open($1); Generate($2)' ./out/eldur.bdf "$out"
-    fontforge -lang=ff -c 'Open($1); Generate($2)' ./out/eldur_2x.bdf "$out2x"
-    # java -jar deps/BitsNPicas.jar convertbitmap -f "$ext" -o "$out" ./out/eldur.bdf
-    # java -jar deps/BitsNPicas.jar convertbitmap -f "$ext" -o "$out2x" ./out/eldur_2x.bdf
+	out="out/eldur.$ext"
+	out2x="out/eldur_2x.$ext"
+	fontforge -lang=ff -c 'Open($1); Generate($2)' ./out/eldur.bdf "$out"
+	fontforge -lang=ff -c 'Open($1); Generate($2)' ./out/eldur_2x.bdf "$out2x"
+	# java -jar deps/BitsNPicas.jar convertbitmap -f "$ext" -o "$out" ./out/eldur.bdf
+	# java -jar deps/BitsNPicas.jar convertbitmap -f "$ext" -o "$out2x" ./out/eldur_2x.bdf
 done
 
 rm -f ./out/*.afm
