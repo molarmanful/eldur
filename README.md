@@ -52,10 +52,10 @@ adhere to eldur's design.
 ## Installation
 
 Download from [Releases](https://github.com/molarmanful/eldur/releases).
-Included are bitmap formats - e.g. OTB, DFONT (Mac) - as well as TTF. 2x
+Included are bitmap formats - OTB, BDF - as well as TTF. 2x
 versions are available for HiDPI screens.
 
-For the crispiest viewing experience, try to use the bitmap formats when
+For the crispiest viewing experience, try to use OTB/the bitmap formats when
 possible. If bitmap fonts are not supported on your platform (e.g. Windows,
 VSCode), then use the TTF at font sizes that are multiples of 13px.
 
@@ -70,7 +70,6 @@ VSCode), then use the TTF at font sizes that are multiples of 13px.
 Requirements:
 
 - Java (for [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas))
-- [FontForge](https://fontforge.org)
 - [bdfresize](https://github.com/ntwk/bdfresize) (e.g. `apt install bdfresize`)
 
 `git clone` and run `build.sh`. Font files output to `out/`.

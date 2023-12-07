@@ -9,15 +9,11 @@ mkdir -p deps out
 java -jar deps/BitsNPicas.jar convertbitmap -f bdf -o ./out/eldur.bdf ./src/eldur.kbitx
 bdfresize -f 2 ./out/eldur.bdf >./out/eldur_2x.bdf
 
+# kbitx to otb
+java -jar deps/BitsNPicas.jar convertbitmap -f otb -o ./out/eldur.otb ./src/eldur.kbitx
+bdfresize -f 2 ./out/eldur.bdf >./out/eldur_2x.otb
+
 # kbitx to ttf
 java -jar deps/BitsNPicas.jar convertbitmap -f ttf -o ./out/eldur.ttf ./src/eldur.kbitx
-
-# bdf to otb
-bitmapfont2otb out/eldur.bdf out/eldur.otb
-bitmapfont2otb out/eldur_2x.bdf out/eldur_2x.otb
-
-# otb to dfont
-fontforge -lang=ff -c 'Open($1); Generate($2)' ./out/eldur.otb ./out/eldur.dfont
-fontforge -lang=ff -c 'Open($1); Generate($2)' ./out/eldur_2x.otb ./out/eldur_2x.dfont
 
 rm -f ./out/*.afm

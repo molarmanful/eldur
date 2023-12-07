@@ -2,7 +2,7 @@
 name: pub
 on:
   push:
-    tags: ["*"]
+    tags: ['*']
 concurrency:
   group: ${{ github.ref }}
   cancel-in-progress: true
@@ -18,15 +18,10 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
-      - uses: actions/setup-python@v5
       - name: deps
-        run: |
-          apt add-apt-repository ppa:fontforge/fontforge && \
-          apt update && \
-          apt install fontforge python3-fontforge bdfresize && \
-          pip install 'bitmapfont2otb @ git+https://github.com/ctrlcctrlv/bitmapfont2otb.git'
+        run: apt install bdfresize
       - name: build
-        run: apt install bdfresize && ./build.sh && cp LICENSE out
+        run: ./build.sh && cp LICENSE out
       - name: Release
         uses: svenstaro/upload-release-action@2.7.0
         with:
