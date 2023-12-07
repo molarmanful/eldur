@@ -118,8 +118,12 @@ checking out.
 
 - [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas)
 - [scientifica](https://github.com/nerdypepper/scientifica)
-- [creep](https://github.com/romeovs/creep) / [creep2](https://github.com/raymond-w-ko/creep2)
+- [creep](https://github.com/romeovs/creep) /
+  [creep2](https://github.com/raymond-w-ko/creep2)
 - [Cozette](https://github.com/slavfox/Cozette)
+- [Cyreal Font Testing Page](http://www.cyreal.org/Font-Testing-Page/)
+- [W3 UTF-8 Demo](https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html) /
+  [Markus Kuhn UTF-8 Demo](https://antofthy.gitlab.io/info/data/utf8-demo.txt)
 
 ## Licensing
 
