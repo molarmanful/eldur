@@ -39,6 +39,7 @@ adhere to eldur's design.
 ![programming font test pattern](./img/eldur-prog.png)
 ![english](./img/eldur-eng.png)
 ![multilingual latin](./img/eldur-lat-multi.png)
+![scala](./img/eldur-scala.png)
 ![cyrillic (draft)](./img/eldur-cyr.png)
 ![greek (draft)](./img/eldur-greek.png)
 
