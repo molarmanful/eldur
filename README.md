@@ -105,6 +105,7 @@ In no particular order:
 
 - More Unicode support
 - Ligatures
+- Bold?
 - Nerd Fonts support/patch?
 
 ## Contributing
