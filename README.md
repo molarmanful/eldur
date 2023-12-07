@@ -22,8 +22,8 @@
 > _An eccentric bitmap microfont for all your spellcasting needs._
 
 **eldur** is a monospace bitmap font with a 5x13 bounding box (4px avg width,
-3px descent, 10px ascent, 8px cap height). It takes strong inspiration from
-[upright-italic
+3px descent, 10px ascent, 5px x-height, 8px cap height). It takes strong
+inspiration from [upright-italic
 type](https://en.wikipedia.org/wiki/Italic_type#Upright_italics) to create a
 font that aims to balance aesthetics, compactness and readability at the 4-5px
 level.
@@ -122,6 +122,7 @@ checking out.
 - [creep](https://github.com/romeovs/creep) /
   [creep2](https://github.com/raymond-w-ko/creep2)
 - [Cozette](https://github.com/slavfox/Cozette)
+- [Greybeard](https://github.com/flowchartsman/greybeard)
 - [Cyreal Font Testing Page](http://www.cyreal.org/Font-Testing-Page/)
 - [W3 UTF-8 Demo](https://www.w3.org/2001/06/utf-8-test/UTF-8-demo.html) /
   [Markus Kuhn UTF-8 Demo](https://antofthy.gitlab.io/info/data/utf8-demo.txt)

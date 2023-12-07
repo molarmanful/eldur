@@ -18,11 +18,13 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
+      - uses: actions/setup-python@v5
       - name: deps
         run: |
           apt add-apt-repository ppa:fontforge/fontforge && \
           apt update && \
-          apt install fontforge bdfresize
+          apt install fontforge python3-fontforge bdfresize && \
+          pip install 'bitmapfont2otb @ git+https://github.com/ctrlcctrlv/bitmapfont2otb.git'
       - name: build
         run: apt install bdfresize && ./build.sh && cp LICENSE out
       - name: Release
