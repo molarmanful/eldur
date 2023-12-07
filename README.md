@@ -8,9 +8,9 @@
 
 - [Table of Contents](#table-of-contents)
 - [Overview](#overview)
+- [Gallery](#gallery)
 - [Installation](#installation)
   - [Manually Building](#manually-building)
-- [Gallery](#gallery)
 - [Design Notes](#design-notes)
 - [TODO](#todo)
 - [Contributing](#contributing)
@@ -31,6 +31,10 @@ level.
 Some glyphs come from [scientifica](https://github.com/nerdypepper/scientifica)
 and [creep](https://github.com/romeovs/creep), often with modifications to
 adhere to eldur's design.
+
+## Gallery
+
+(WIP)
 
 ## Installation
 
@@ -62,10 +66,6 @@ This method also downloads a Bits'n'Picas binary at `deps/`. If you wish, you
 can use this binary (instead of or alongside FontForge) to view glyphs and
 build desired font formats not found on the Releases page.
 
-## Gallery
-
-(WIP)
-
 ## Design Notes
 
 A rather gnarly challenge with designing a font this small is that oftentimes,
@@ -92,7 +92,7 @@ In no particular order:
 
 - More Unicode support
 - Ligatures
-- Nerd Fonts support?
+- Nerd Fonts support/patch?
 
 ## Contributing
 
