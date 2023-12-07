@@ -11,12 +11,12 @@ java -jar deps/BitsNPicas.jar convertbitmap -f bdf -o ./out/eldur.bdf ./src/eldu
 bdfresize -f 2 ./out/eldur.bdf >./out/eldur_2x.bdf
 
 for ext in "${exts[@]}"; do
-	out="out/eldur.$ext"
-	out2x="out/eldur_2x.$ext"
-	fontforge -lang=ff -c 'Open($1); Generate($2)' ./out/eldur.bdf "$out"
-	fontforge -lang=ff -c 'Open($1); Generate($2)' ./out/eldur_2x.bdf "$out2x"
-	# java -jar deps/BitsNPicas.jar convertbitmap -f "$ext" -o "$out" ./out/eldur.bdf
-	# java -jar deps/BitsNPicas.jar convertbitmap -f "$ext" -o "$out2x" ./out/eldur_2x.bdf
+    out="out/eldur.$ext"
+    out2x="out/eldur_2x.$ext"
+    fontforge -lang=ff -c 'Open($1); Generate($2)' ./out/eldur.bdf "$out"
+    fontforge -lang=ff -c 'Open($1); Generate($2)' ./out/eldur_2x.bdf "$out2x"
+    # java -jar deps/BitsNPicas.jar convertbitmap -f "$ext" -o "$out" ./out/eldur.bdf
+    # java -jar deps/BitsNPicas.jar convertbitmap -f "$ext" -o "$out2x" ./out/eldur_2x.bdf
 done
 
 rm -f ./out/*.afm
