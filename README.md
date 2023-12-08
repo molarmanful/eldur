@@ -38,7 +38,7 @@ adhere to eldur's design.
 
 ![programming font test pattern](./img/eldur-prog.png)
 ![english](./img/eldur-eng.png)
-![multilingual latin](./img/eldur-lat-multi.png)
+![multilingual](./img/eldur-lat-multi.png)
 ![scala](./img/eldur-scala.png)
 ![clojure](./img/eldur-clojure.png)
 ![golang](./img/eldur-go.png)
@@ -47,8 +47,6 @@ adhere to eldur's design.
 ![math/science](./img/eldur-mathsci.png)
 ![box drawings](./img/eldur-box.png)
 ![braille](./img/eldur-braille.png)
-![cyrillic (draft)](./img/eldur-cyr.png)
-![greek (draft)](./img/eldur-greek.png)
 
 </div>
 
