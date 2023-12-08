@@ -19,18 +19,20 @@
 
 ## Overview
 
-> _An eccentric bitmap microfont for all your spellcasting needs._
+**eldur** /ˈɛldʏr/ _n._
 
-**eldur** is a monospace bitmap font with a 5x13 bounding box (4px avg width,
-3px descent, 10px ascent, 5px x-height, 8px cap height). It takes strong
-inspiration from [upright-italic
-type](https://en.wikipedia.org/wiki/Italic_type#Upright_italics) to create a
-font that aims to balance aesthetics, compactness and readability at the 4-5px
-level.
+1. _(Icelandic)_ fire.
 
-Some glyphs come from [scientifica](https://github.com/nerdypepper/scientifica)
-and [creep](https://github.com/romeovs/creep), often with modifications to
-adhere to eldur's design.
+1. A monospace bitmap font with a 5x13 bounding box (4px avg width, 3px
+   descent, 10px ascent, 5px x-height, 8px cap height). It takes strong
+   inspiration from [upright-italic
+   type](https://en.wikipedia.org/wiki/Italic_type#Upright_italics) to create a
+   font that aims to balance aesthetics, compactness and readability at the 4-5px
+   level.
+
+   Some glyphs come from [scientifica](https://github.com/nerdypepper/scientifica)
+   and [creep](https://github.com/romeovs/creep), often with modifications to
+   adhere to eldur's design.
 
 ## Gallery
 
