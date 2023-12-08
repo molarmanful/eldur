@@ -19,7 +19,7 @@ jobs:
           distribution: temurin
           java-version: 21
       - name: deps
-        run: apt install bdfresize
+        run: sudo apt install bdfresize
       - name: build
         run: ./build.sh && cp LICENSE out
       - name: Release
