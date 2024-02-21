@@ -13,9 +13,10 @@
 <name id="2" value="Medium"/>
 <name id="3" value="molarmanful: eldur: 2023"/>
 <name id="4" value="eldur Medium"/>
-<name id="5" value="Version 1.0"/>
+<name id="5" value="Version 0.0.3"/>
 <name id="6" value="eldur"/>
-<name id="8" value="Benjamin Pang"/>
+<name id="8" value="molarmanful"/>
+<name id="9" value="Benjamin Pang"/>
 <name id="11" value="https://github.com/molarmanful/eldur"/>
 <name id="13" value="SIL Open Font License 1.1"/>
 <name id="14" value="https://github.com/molarmanful/eldur/blob/main/LICENSE"/>
@@ -574,7 +575,7 @@
 <g u="617" x="0" y="5" w="5" d="BQTCAP8CQgNBA8P/AP8Cwv8A"/>
 <g u="618" x="0" y="5" w="5" d="BQNDwgD/AkECwv8AQw"/>
 <g u="619" x="0" y="8" w="5" d="CATCAP8DQQNBAkLDAP8AQgJBA0EEwv8A"/>
-<g u="620" x="-1" y="8" w="0" d="CAUCQQRBA0ICxv8A/wD/AEMDQQRBBcL/AA"/>
+<g u="620" x="0" y="8" w="5" d="CAUCQQRBA0ICxv8A/wD/AEMDQQRBBcL/AA"/>
 <g u="621" x="0" y="8" w="5" d="CwTCAP8CQgNBA0EDQQNBA0EDQQNBA8P/AP8Cwv8A"/>
 <g u="622" x="0" y="8" w="5" d="CwRBA0EDQQNFAkLEAP8A/wLF/wD/AP8DQgLC/wBCAQ"/>
 <g u="623" x="0" y="5" w="5" d="BQRBAkICQgFHAkE"/>
@@ -867,8 +868,8 @@
 <g u="1030" x="0" y="8" w="5" d="CAQCRARBA0EDQQNBA0QC"/>
 <g u="1031" x="0" y="9" w="5" d="CQTEAP8A/wZEBEEDQQNBA0QC"/>
 <g u="1032" x="0" y="8" w="5" d="CAQCRARBA0EDQQPF/wD/AP8CQQI"/>
-<g u="1033" x="-1" y="8" w="6" d="CAYBQwPD/wD/A8P/AP8Dwv8AQgLQ/wD/AP8A/wD/AP8A/wD/AEIDwv8A"/>
-<g u="1034" x="0" y="8" w="6" d="CAXD/wD/AsP/AP8Cw/8A/wJExQD/AP8AQsMA/wBCwwD/AEICwv8A"/>
+<g u="1033" x="-1" y="8" w="5" d="CAYBQwPD/wD/A8P/AP8Dwv8AQgLQ/wD/AP8A/wD/AP8A/wD/AEIDwv8A"/>
+<g u="1034" x="0" y="8" w="5" d="CAXD/wD/AsP/AP8Cw/8A/wJExQD/AP8AQsMA/wBCwwD/AEICwv8A"/>
 <g u="1035" x="0" y="8" w="5" d="CARDwgD/A0EDxP8A/wBCAUICQgJCAkE"/>
 <g u="1036" x="0" y="10" w="5" d="CgQCQQJBBULHAP8A/wD/AEICzf8A/wD/AP8A/wD/AP8CQQ"/>
 <g u="1037" x="0" y="10" w="5" d="CgTCAP8EQQVBAkIBQwFEAUMBQgJCAkE"/>
@@ -947,8 +948,8 @@
 <g u="1110" x="0" y="7" w="5" d="BwTCAP8HQQJCA0EDw/8A/wLC/wA"/>
 <g u="1111" x="0" y="7" w="5" d="BwTD/wD/BkECQgNBA8P/AP8Cwv8A"/>
 <g u="1112" x="0" y="7" w="5" d="CgMCQQXC/wBCAkECQQJBAkLFAP8A/wA"/>
-<g u="1113" x="-1" y="5" w="6" d="BQYBQwPD/wD/A8L/AEICxP8A/wBCA8L/AA"/>
-<g u="1114" x="0" y="5" w="6" d="BQXD/wD/AsP/AP8CRMUA/wD/AEICwv8A"/>
+<g u="1113" x="-1" y="5" w="5" d="BQYBQwPD/wD/A8L/AEICxP8A/wBCA8L/AA"/>
+<g u="1114" x="0" y="5" w="5" d="BQXD/wD/AsP/AP8CRMUA/wD/AEICwv8A"/>
 <g u="1115" x="0" y="8" w="5" d="CARBA0PCAP8DxP8A/wBCAUICQgJCAkE"/>
 <g u="1116" x="0" y="8" w="5" d="CAQCQQJBBkECQsMA/wBCAsX/AP8A/wJB"/>
 <g u="1117" x="0" y="8" w="5" d="CATCAP8EQQVBAkIBRAFCAkICQQ"/>
@@ -978,8 +979,8 @@
 <g u="1141" x="0" y="5" w="5" d="BQVBAkLEAP8A/wLD/wD/A0EEQQI"/>
 <g u="1142" x="0" y="10" w="5" d="CgXD/wD/A8P/AP8GQQJDAsP/AP8CQQLD/wD/AsP/AP8DQQRBAg"/>
 <g u="1143" x="0" y="8" w="5" d="CAXD/wD/A8P/AP8GQQJCxAD/AP8Cw/8A/wNBBEEC"/>
-<g u="1144" x="0" y="8" w="6" d="CwbCAP8Ew/8A/wPD/wD/A8L/AEIBQgFCAUIBQgFCAULEAP8A/wJCBUEDw/8A/wTC/wA"/>
-<g u="1145" x="0" y="5" w="6" d="CAbFAP8A/wBCAUIBQgFCAUIBQsQA/wD/AkIFQQPD/wD/BML/AA"/>
+<g u="1144" x="0" y="8" w="5" d="CwbCAP8Ew/8A/wPD/wD/A8L/AEIBQgFCAUIBQgFCAULEAP8A/wJCBUEDw/8A/wTC/wA"/>
+<g u="1145" x="0" y="5" w="5" d="CAbFAP8A/wBCAUIBQgFCAUIBQsQA/wD/AkIFQQPD/wD/BML/AA"/>
 <g u="1146" x="0" y="9" w="5" d="CgUCQQNDxQD/AP8AQgNCA0IDQgNCxQD/AP8AQwNBAg"/>
 <g u="1147" x="0" y="6" w="5" d="BwUCQQNDxQD/AP8AQgNCxQD/AP8AQwNBAg"/>
 <g u="1150" x="0" y="10" w="5" d="CgUBQwLD/wD/B8X/AP8A/wNCA0LDAP8AQsMA/wBCyQD/AP8A/wD/AA"/>
