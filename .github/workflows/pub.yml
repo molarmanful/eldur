@@ -24,9 +24,9 @@ jobs:
           python-version: "3.10"
       - name: fontforge
         run: |
-          add-apt-repository ppa:fontforge/fontforge && \
-          apt-get update && \
-          apt-get install fontforge
+          sudo add-apt-repository ppa:fontforge/fontforge && \
+          sudo apt-get update && \
+          sudo apt-get install fontforge
       - name: build
         env:
           REF: ${{ github.ref_name }}
