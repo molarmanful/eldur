@@ -18,8 +18,15 @@ jobs:
         with:
           distribution: temurin
           java-version: 21
-      - name: deps
-        run: sudo apt install bdfresize
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+      - name: fontforge
+        run: |
+          add-apt-repository ppa:fontforge/fontforge && \
+          apt-get update && \
+          apt-get install fontforge
       - name: build
         env:
           REF: ${{ github.ref_name }}

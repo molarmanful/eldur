@@ -3,7 +3,9 @@
 while getopts ":v:" o; do
 	case $o in
 	v)
-		[ "$OPTARG" != "" ] && v="_$OPTARG"
+		if [ "$OPTARG" != "" ]; then
+			v=$OPTARG
+		fi
 		;;
 	*) ;;
 	esac
@@ -15,17 +17,28 @@ mkdir -p deps out
 [ ! -f deps/BitsNPicas.jar ] && wget -O deps/BitsNPicas.jar "https://github.com/kreativekorp/bitsnpicas/releases/latest/download/BitsNPicas.jar"
 
 cp LICENSE out
+cp README.md out
 
-# kbitx -> bdf
-java -jar deps/BitsNPicas.jar convertbitmap -f bdf -o "out/eldur$v.bdf" src/eldur.kbitx
-bdfresize -f 2 "out/eldur$v.bdf" >"out/eldur_2x$v.bdf"
+ff() {
+	fontforge -script scripts/fix.py "$@"
+}
 
-# kbitx -> otb
-java -jar deps/BitsNPicas.jar convertbitmap -f otb -o "out/eldur$v.otb" src/eldur.kbitx
-bdfresize -f 2 "out/eldur$v.otb" >"out/eldur_2x$v.otb"
+bnp() {
+	java -jar deps/BitsNPicas.jar convertbitmap -f "$3" -o out/"$2.$3" "$1"
+}
 
-# kbitx -> ttf
-java -jar deps/BitsNPicas.jar convertbitmap -f ttf -o "out/eldur$v.ttf" src/eldur.kbitx
+bnp src/eldur.kbitx eldur ttf
+ff eldur ttf
+bnp src/eldur.kbitx eldur bdf
+sed -i -e '/^FONT/s/-[pc]-/-M-/i' -e '/^FONT/s/-80-/-50-/' out/eldur.bdf
+ff eldur bdf
+ff eldur otb 1
 
-rm -f out/*.afm
-zip -r "out/eldur$v.zip" out/*
+bdfresize -f 2 out/eldur.bdf >out/eldur2x.bdf
+sed -i 's/^iso.*-FONT/FONT/g' out/eldur2x.bdf
+ff eldur2x bdf
+ff eldur2x otb 1
+
+rm -f out/*-*.bdf
+
+zip -r "out/eldur_$v.zip" out/*
