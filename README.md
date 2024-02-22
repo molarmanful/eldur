@@ -30,8 +30,9 @@
    font that aims to balance aesthetics, compactness and readability at the 4-5px
    level.
 
-   Some glyphs come from [scientifica](https://github.com/nerdypepper/scientifica)
-   and [creep](https://github.com/romeovs/creep), often with modifications to
+   Some glyphs come from
+   [scientifica](https://github.com/nerdypepper/scientifica) and
+   [creep](https://github.com/romeovs/creep), often with modifications to
    adhere to eldur's design.
 
 ## Gallery
@@ -55,10 +56,10 @@
 ## Installation
 
 Download from [Releases](https://github.com/molarmanful/eldur/releases).
-Included are bitmap formats - OTB, BDF - as well as TTF. 2x
-versions are available for HiDPI screens.
+Included are bitmap formats - OTB, BDF, DFONT (for Mac users) - as well as TTF.
+2x versions are available for HiDPI screens.
 
-For the crispiest viewing experience, try to use OTB/the bitmap formats when
+For the crispiest viewing experience, try to use the bitmap formats when
 possible. If bitmap fonts are not supported on your platform (e.g. Windows,
 VSCode), then use the TTF at font sizes that are multiples of 13px.
 
@@ -74,12 +75,14 @@ Requirements:
 
 - Java (for [Bits'n'Picas](https://github.com/kreativekorp/bitsnpicas))
 - [bdfresize](https://github.com/ntwk/bdfresize) (e.g. `apt install bdfresize`)
+- FUSE (e.g. `apt install fuse`)
 
 `git clone` and run `build.sh`. Font files output to `out/`.
 
-This method also downloads a Bits'n'Picas binary at `deps/`. If you wish, you
-can use this binary (instead of or alongside FontForge) to view glyphs and
-build desired font formats not found on the Releases page.
+`build.sh` downloads FontForge as an AppImage at `deps/` for generating bitmap
+formats from BDF. `build.sh` also downloads a Bits'n'Picas binary at `deps/`.
+If you wish, you can use this binary (instead of or alongside FontForge) to
+view glyphs and build desired font formats not found on the Releases page.
 
 ## Design Notes
 
